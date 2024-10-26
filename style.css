@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.colors-container {
+    width: 500px;
+    height: 150px;
+    background-color: whitesmoke;
+    margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.colors-container div {
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    opacity: 0.5;
+    border-radius: 50%;
+}
+
+.colors-container .active {
+    opacity: 1;
+    transform: scale(1.4,1.4);
+}
+
+.red {
+    background-color: red;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.black {
+    background-color: black;
+}
+
+.preview {
+    width: 550px;
+    height: 400px;
+    background-color: red;
+    margin: auto;
+    border-radius: 10px;
+}
