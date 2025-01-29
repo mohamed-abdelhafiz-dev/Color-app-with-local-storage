@@ -24,7 +24,7 @@
 
 .colors-container .active {
     opacity: 1;
-    transform: scale(1.4,1.4);
+    transform: scale(1.4, 1.4);
 }
 
 .red {
@@ -49,4 +49,19 @@
     background-color: red;
     margin: auto;
     border-radius: 10px;
+}
+
+@media screen and (max-width:600px) {
+    .colors-container {
+        width: 75%;
+    }
+
+    .colors-container div {
+        width: 10vw;
+        height: 10vw;
+    }
+
+    .preview {
+        width: 90%;
+    }
 }
